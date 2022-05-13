@@ -17,13 +17,7 @@ pipeline{
                url: 'https://github.com/ablaviforsmark/ci-jenkins.git'
            }
        }
-       stage('BUILD'){
-           steps {
-           }
-       }
-       stage('Test'){
-           steps{
-           }
-       }
+       
+       
    }
 }
