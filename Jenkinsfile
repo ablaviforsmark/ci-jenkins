@@ -11,11 +11,11 @@ pipeline{
     }
    */
    stages{
-       stage('Fetch code’){
+       stage('Fetch code'){
            steps{
-               git branch: 'jpac’,
-               url: ‘https://github.com/ablaviforsmark/ci-jenkins.git’
-           }
+               git branch: 'Jpac',
+               url: 'https://github.com/ablaviforsmark/ci-jenkins.git'
+            }
        }
    }
 }
