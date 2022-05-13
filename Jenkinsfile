@@ -16,8 +16,6 @@ pipeline{
                git branch: 'jpac',
                url: 'https://github.com/ablaviforsmark/ci-jenkins.git'
            }
-       }
-       
-       
+       }  
    }
 }
